@@ -50,7 +50,13 @@
 			</div>
 		</form>
 		<ul class="nav menu">
-			<li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+			<li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Panel Principal</a></li>
+			
+				
+		<!-- Aqui van los demas menus-->
+		</ul>
+		<ul class="nav menu">
+			<li class="active"><a href="index.html"><em class="fa fa-dashboard">&nbsp;</em> Ingresar Documentos</a></li>
 			
 				
 		<!-- Aqui van los demas menus-->

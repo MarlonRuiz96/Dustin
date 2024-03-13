@@ -102,21 +102,37 @@ require_once APPPATH . 'views/Panel/Panel.php';
 				<table id="myTable" class="display">
 					<thead>
 						<tr>
-							<th>Column 1</th>
-							<th>Column 2</th>
+							<th>Importador</th>
+							<th>No. BL/AWB/CP</th>
+							<th>No. DUA</th>
+							<th>Regimen</th>
+							<th>Aduana</th>
+							<th>ETA</th>
+							<th>Selectivo</th>
+							<th>Estado</th>
+							<th>Opciones</th>
+
 						</tr>
 					</thead>
 					<tbody>
+
 						<tr>
-							<td>Row 1 Data 1</td>
-							<td>Row 1 Data 2</td>
-						</tr>
-						<tr>
-							<td>Row 2 Data 1</td>
-							<td>Row 2 Data 2</td>
+							<td>GMG COMERCIAL</td>
+							<td>0004574</td>
+							<td>301-4700000</td>
+							<td>DA</td>
+							<td>puerto quetzal</td>
+							<td>11/11</td>
+							<td>VERDE</td>
+							<td>En tramite
+							<td><button type="button" class="btn btn-success">Actualizar </button>
+								<button type="button" class="btn btn-info">Detalles</button>
+							</td>
+
 						</tr>
 					</tbody>
 				</table>
+
 			</div>
 
 
@@ -125,9 +141,9 @@ require_once APPPATH . 'views/Panel/Panel.php';
 
 		<script>
 			$(document).ready(function () {
-				
+
 				$('#myTable').DataTable({
-					
+
 					// Opciones de personalización (ej. búsqueda, paginación, etc.)
 				});
 			});
